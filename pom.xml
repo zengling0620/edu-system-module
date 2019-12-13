@@ -13,8 +13,11 @@
   <modules>
     <module>edu-system-center</module>
     <module>edu-system-config</module>
-    <module>edu-system-server</module>
     <module>edu-system-gateway</module>
+    <module>edu-system-server</module>
+    <module>edu-system-job</module>
+    <module>edu-system-monitor</module>
+    <module>edu-system-common</module>
   </modules>
 
 </project>

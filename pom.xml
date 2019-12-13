@@ -1,24 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.edu</groupId>
-  <artifactId>edu-system-module</artifactId>
-  <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>edu-system-module</name>
+    <groupId>com.edu</groupId>
+    <artifactId>edu-system-module</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>edu-system-module</name>
 
-  <modules>
-    <module>edu-system-center</module>
-    <module>edu-system-config</module>
-    <module>edu-system-gateway</module>
-    <module>edu-system-server</module>
-    <module>edu-system-job</module>
-    <module>edu-system-monitor</module>
-    <module>edu-system-common</module>
-    <module>edu-system-api</module>
-  </modules>
+    <modules>
+        <module>edu-system-center</module>
+        <module>edu-system-config</module>
+        <module>edu-system-gateway</module>
+        <module>edu-system-server</module>
+        <module>edu-system-job</module>
+        <module>edu-system-monitor</module>
+        <module>edu-system-common</module>
+        <module>edu-system-api</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <edu.system.version>1.0-SNAPSHOT</edu.system.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.edu</groupId>
+                <artifactId>edu-system-api</artifactId>
+                <version>${edu.system.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu</groupId>
+                <artifactId>edu-system-job</artifactId>
+                <version>${edu.system.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu</groupId>
+                <artifactId>edu-system-common</artifactId>
+                <version>${edu.system.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+    </dependencies>
 
 </project>

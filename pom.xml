@@ -69,6 +69,11 @@
                 <version>${edu.system.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.edu</groupId>
+                <artifactId>common-utils</artifactId>
+                <version>${edu.system.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Finchley.RELEASE</version>

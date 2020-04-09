@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>com.edu</groupId>
-            <artifactId>common-core</artifactId>
+            <artifactId>common-utils</artifactId>
         </dependency>
     </dependencies>
 </project>

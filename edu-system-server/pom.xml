@@ -6,6 +6,7 @@
 
     <modules>
         <module>edu-system-server-mail</module>
+        <module>edu-system-server-wechat</module>
     </modules>
 
     <parent>

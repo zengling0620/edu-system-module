@@ -17,7 +17,8 @@ public class JsonUtilTest {
         HashMap map = new HashMap();
         map.put("id", "01");
         map.put("name", "demo");
+        System.out.println("map = " + map);
         String result = jsonUtil.map2json(map);
-        System.out.println("result = " + result);
+        System.out.println("json = " + result);
     }
 }

@@ -5,19 +5,14 @@
 
     <parent>
         <groupId>com.edu</groupId>
-        <artifactId>edu-system-center</artifactId>
+        <artifactId>edu-system-server</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+    
     <groupId>com.edu</groupId>
-    <artifactId>eureka-server</artifactId>
+    <artifactId>edu-system-server-mail</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>eureka-server</name>
+    <packaging>war</packaging>
+    <name>edu-system-server-mail</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-    </dependencies>
 </project>

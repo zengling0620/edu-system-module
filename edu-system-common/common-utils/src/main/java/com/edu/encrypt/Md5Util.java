@@ -3,9 +3,6 @@ package com.edu.encrypt;
 import lombok.extern.slf4j.Slf4j;
 
 import java.security.MessageDigest;
-
-import com.edu.exception.SecurityException;
-
 import java.security.NoSuchAlgorithmException;
 
 /**

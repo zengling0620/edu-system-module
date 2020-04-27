@@ -6,5 +6,5 @@ package com.edu.exception;
  * @author: 86173 <br>
  * @version: 1.0 <br>
  */
-public class DateException extends BaseException{
+public class DateException extends BusinessException{
 }

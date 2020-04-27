@@ -6,5 +6,5 @@ package com.edu.exception;
  * @author: 86173 <br>
  * @version: 1.0 <br>
  */
-public class SystemException extends BaseException {
+public class SystemException extends BusinessException {
 }

@@ -4,23 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.edu</groupId>
+    <artifactId>edu-system-domain</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>edu-system-domain</name>
+
     <parent>
         <groupId>com.edu</groupId>
-        <artifactId>edu-system-common</artifactId>
+        <artifactId>edu-system-module</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.edu</groupId>
-    <artifactId>common-utils</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>common-utils</name>
-
     <dependencies>
         <dependency>
-            <groupId>net.sf.json-lib</groupId>
-            <artifactId>json-lib</artifactId>
-            <classifier>jdk15</classifier>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
     </dependencies>
-
 </project>

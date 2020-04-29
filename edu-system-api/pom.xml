@@ -10,6 +10,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <modules>
+        <module>edu-system-api-wechat</module>
+    </modules>
+
     <groupId>com.edu</groupId>
     <artifactId>edu-system-api</artifactId>
     <version>1.0-SNAPSHOT</version>
